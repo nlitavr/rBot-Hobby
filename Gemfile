@@ -24,6 +24,7 @@ gem 'twitter'
 gem 'simple-rss'
 
 gem 'ariane'
+# find . -name \*.erb -print | sed 'p;s/.erb$/.haml/' | xargs -n2 html2haml
 gem 'html2haml'
 gem 'haml'
 gem 'haml-rails'
@@ -31,7 +32,7 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'will_paginate-bootstrap'
 
-
+gem 'devise'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

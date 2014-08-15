@@ -35,6 +35,9 @@ GEM
     backburner (0.4.5)
       beaneater (~> 0.3.1)
       dante (~> 0.1.5)
+    bcrypt (3.1.7)
+    bcrypt-ruby (3.1.5)
+      bcrypt (>= 3.1.3)
     beaneater (0.3.2)
     bootstrap-sass (3.1.1.0)
       sass (~> 3.2)
@@ -48,6 +51,12 @@ GEM
       execjs
     coffee-script-source (1.7.1)
     dante (0.1.5)
+    devise (3.1.2)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
     equalizer (0.0.9)
     erubis (2.7.0)
     execjs (2.2.1)
@@ -89,6 +98,7 @@ GEM
     multi_json (1.10.1)
     multipart-post (2.0.0)
     naught (1.0.0)
+    orm_adapter (0.5.0)
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -167,6 +177,8 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    warden (1.2.3)
+      rack (>= 1.0)
     will_paginate (3.0.7)
     will_paginate-bootstrap (1.0.1)
       will_paginate (>= 3.0.3)
@@ -179,6 +191,7 @@ DEPENDENCIES
   backburner
   bootstrap-sass
   coffee-rails (~> 4.0.0)
+  devise
   execjs
   haml
   haml-rails
