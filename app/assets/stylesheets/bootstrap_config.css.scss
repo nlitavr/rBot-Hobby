@@ -1,0 +1,20 @@
+$font-family-sans-serif: 'Oxygen' ;
+$font-size-base: 16px ;
+
+body {
+  background-size: cover;
+  background-image: image_url("space_girl_wallpaper.jpg");
+  background-repeat: no-repeat;
+}
+
+
+$navbar-inverse-height: 45px;
+$navbar-inverse-brand-hover-color: #9b59b6;
+$navbar-inverse-toggle-border-color: #ecf0f1 ;
+$navbar-inverse-link-hover-color: #9b59b6 ;
+
+@import 'bootstrap' ;
+
+
+
+
