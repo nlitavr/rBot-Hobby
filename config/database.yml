@@ -1,0 +1,21 @@
+development:
+  adapter: sqlite3
+  encoding: unicode
+  database: development.sqlite3
+  pool: 5
+
+test:
+  adapter: sqlite3
+  encoding: unicode
+  database: test.sqlite3
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  host:
+  database: de3mpg2ue905v1
+  pool: 5
+  user: hubvlpicdhdfdy
+  port: 5432
+  password: ck3MSAxD2LJNy99okJ2EjaWRN4
