@@ -80,7 +80,7 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   #placeholder for heroku
-  config.action_mailer.default_url_options = { :host => '' }
+  config.action_mailer.default_url_options = { :host => 'http://rbotovich.herokuapp.com/' }
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
