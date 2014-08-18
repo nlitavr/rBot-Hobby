@@ -16,6 +16,7 @@
 /tmp
 *.keep
 .DS_STORE
+/config/database.yml
 /public/assets/**
 /db/*.sqlite3
 /.bundle
