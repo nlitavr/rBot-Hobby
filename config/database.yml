@@ -13,7 +13,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  host:
+  host: ec2-107-20-191-205.compute-1.amazonaws.com
   database: de3mpg2ue905v1
   pool: 5
   user: hubvlpicdhdfdy
