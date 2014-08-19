@@ -8,7 +8,7 @@ Rails.application.configure do
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
-  config.eager_load = true
+  config.eager_load = false
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
@@ -68,6 +68,7 @@ Rails.application.configure do
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
+
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners.
@@ -79,8 +80,8 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
-  #placeholder for heroku
-  config.action_mailer.default_url_options = { :host => 'http://rbotovich.herokuapp.com/' }
+  # #placeholder for heroku
+  # config.action_mailer.default_url_options = { :host => 'http://rbotovich.herokuapp.com/' }
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end

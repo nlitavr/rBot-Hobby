@@ -6,6 +6,7 @@ gem 'sass-rails', '~> 4.0.3'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer'
+gem 'spring'
 gem 'backburner'
 gem 'jquery-rails'
 gem 'execjs'
