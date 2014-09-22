@@ -11,7 +11,7 @@ test:
   pool: 5
 
 production:
-  adapter: sqlite3
+  adapter: pg
   encoding: unicode
   database: test.sqlite3
   pool: 5
